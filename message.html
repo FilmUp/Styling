@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>FilmUp|Sign Up</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Maiden+Orange' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+        <link href = "css/bootstrap.css" rel = "stylesheet">
+        <link href = "css/css.css" rel = "stylesheet">
+        <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src = "js/bootstrap.js"></script>
+        <script src = "js/js.js"></script>
+        <meta charset="ISO-8859-1">
+    </head>
+    <body class = "bod">
+        <div class = "empty"></div>
+        <div class = "container gray">
+            <div class = "row gray messegebox">
+                <div class = "col-lg-4 col-md-4 col-sm-12 litegraybg messegebox">
+                    <button class="btn btn-default penbut flat pull-right nomarpad" type="button"><img src="Img/pen.svg" height=32 alt = "NEW">
+                        </button>
+                    <div class="dropdown half">
+                        <button class="btn btn-default dropdown-toggle messagedrop flat" type="button" id="menu1" data-toggle="dropdown">ALL MESSAGES
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu flat ddmenu" role="menu" aria-labelledby="menu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">UNREAD</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">DRAFTS</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">TRASH</a></li>
+                        </ul>
+                    </div>
+                    <input type="text" class="form-control text-center search martop flat" name="search" id="search" placeholder="SEARCH">
+                    <div class = "message martop">
+                        <div class = "row over">
+                            <div class = "col-md-3 promar">
+                                <img src="Img/profile.svg" class = "pro" alt=" ">
+                            </div>
+                            <div class = "col-md-5 promar">
+                                <h4>NAME NAME NAME</h4>
+                                <p>Sometimes I type because I dont want to go to lorem ipsum, weird I know.</p>
+                            </div>
+                            <div class = "col-md-4 promar date">
+                                <span>MM/DD/YY</span>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class = "message martop">
+                        <div class = "row over">
+                            <div class = "col-md-3 promar">
+                                <img src="Img/profile.svg" class = "pro" alt=" ">
+                            </div>
+                            <div class = "col-md-5 promar">
+                                <h4>NAME NAME NAME</h4>
+                                <p>Sometimes I type because I dont want to go to lorem ipsum, weird I know.</p>
+                            </div>
+                            <div class = "col-md-4 promar date">
+                                <span>MM/DD/YY</span>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                
+                <div class = "col-lg-7 col-md-7 col-sm-12 col-lg-offset-1 col-md-offset-1 litegraybg messegebox">
+                    <div class = "row">
+                        <div class = "col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                            <img class = "ritepro" src = "Img/profile.svg" alt = " ">
+                        </div>
+                        <div class = "col-lg-7 col-md-7 col-sm-8 col-xs-7">
+                            <h4 class = "">NAME NAME NAME</h4>
+                            <h5>TITLE TITLE TITLE</h5>
+                        </div>
+                        <div class = "col-lg-2 col-md-2 col-sm-2 col-xs-3 col-lg-offset-2 col-md-offset-2">
+
+                            <div class="dropdown half">
+                                <button class="btn btn-default dropdown-toggle dots flat" type="button" id="menu1" data-toggle="dropdown">
+                                    <img class = "ritepro" src = "Img/dots.svg" alt = " ">
+                                </button>
+                                <ul class="dropdown-menu flat dotsmenu pull-left" role="menu" aria-labelledby="menu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">MARK AS READ</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">MUTE CONVERSATION</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ADD PEOPLE TO CONVERSATION</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">DELETE CONVERSATION</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-md-12 text-center">
+                            <span>DATE</span>
+                        </div>
+                        <div class = "col-md-12">
+                            <div class = "white text-center recieved-message"><p class = "text-left">MESSAGE</p></div>
+                            <p class = "text-right marr">TIME</p>
+                        </div>
+                        <div class = "col-md-12">
+                            <div class = "white text-center sent-message"><p class = "text-left">MESSAGE</p></div>
+                            <p class = "text-left marl">TIME</p>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-md-12 martop">
+                            <textarea rows="5" cols="50" placeholder= "TYPE MESSAGE HERE"></textarea>
+                             <button class="btn btn-default dropdown-toggle messagedrop send flat sendbut" type="button" id="send">SEND</button>
+                            <button class="btn btn-default dropdown-toggle messagedrop send flat" type="button" id="attach">LINK</button>
+                            <button class="btn btn-default dropdown-toggle messagedrop send flat" type="button" id="emoji">:)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
