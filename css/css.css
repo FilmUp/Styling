@@ -254,26 +254,13 @@ textarea{resize: none; padding:5; overflow-y: scroll; max-height: 200px; width:9
 
 .send{margin-right:5px; float:right; margin-top: 5px;}
 .sendbut{margin-right:5%;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 textarea.form-control{height:250px;}
 .vertcenter{padding-top: 100px;}
 .hun{width:100%;}
+
+/*============================
+Last Push
+============================*/
+
+.marbot{margin-bottom: 25px;}
+.save{width:50%; margin-left: auto; margin-right: auto;}
