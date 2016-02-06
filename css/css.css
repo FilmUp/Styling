@@ -120,6 +120,7 @@ SUBSCRIBE PAGE
 .four{font-size: 2.8em; display: block; text-align: center;}
 .eight{font-size:8em;}
 .year{font-size: 1.5em;}
+.twelve{font-size: 1.2em;}
 .dos{font-size: 1.8em;}
 .mon{font-size: 2.0em; position: relative; bottom: 55;}
 .white{color:#FFF;}
@@ -266,3 +267,18 @@ Last Push
 .save{width:50%; margin-left: auto; margin-right: auto;}
 .para{padding: 20px;}
 .picMar{margin-left: 25px; width:200px;}
+.mediab{
+    background-color: aqua;
+    width:175px;
+    height:150px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 25px;
+}
+.dropb{
+    background-color: rgba(0,0,0,0);
+    border-style: none;
+}
+
+
+

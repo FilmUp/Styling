@@ -31,4 +31,9 @@ $(document).ready(function () {
         var offset = p.offset();
         $(".arrow").offset({ top: offset.top+33, left: offset.left+30})
     });
+    
+    $('#ab').on('click', function(){
+        console.log("HERE");
+        $("#removehide").removeClass('hidden');
+    });
 })
